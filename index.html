@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="section">
+        <div class="container">
+            <div class="heading">
+                <h1><i class="fa-solid fa-bookmark"></i>ACQUIOS</h1>
+            </div>
+            <div class="form">
+                <form>
+                    <div class="row">
+                        <div class="col-6">
+                            <label for="firstname">First Name*</label><br>
+                            <input type="text" id="firstname" name="firstname">
+                        </div>
+                        <div class="col-6">
+                            <label for="lastname">Last Name*</label><br>
+                            <input type="text" id="lastname" name="lastname">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <label for="email">Email Address*</label><br>
+                            <input style="width: 330px; height: 35px; margin-top: 10px; margin-bottom: 20px;" type="email" id="email" name="email">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="wrapper">
+                                <label>How was your overall expetience?*</label><br>
+                                <i class="fa-solid fa-star"></i>
+                                <label for="st1"></label>
+                                <i class="fa-solid fa-star"></i>
+                                <label for="st2"></label>
+                                <i class="fa-solid fa-star"></i>
+                                <label for="st3"></label>
+                                <i class="fa-solid fa-star"></i>
+                                <label for="st4"></label>
+                                <i class="fa-solid fa-star"></i>
+                                <label for="st5"></label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <label class="bottom">Was our representative (check all that apply):</label><br>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <input type="checkbox" id="st1" value="1">
+                            <label for="st1">Professional?</label><br>
+                            <input type="checkbox" id="st2" value="2">
+                            <label for="st2">Knowledgeable?</label><br>
+                            <input type="checkbox" id="st3" value="3">
+                            <label for="st3">Friendly?</label><br>
+                            <input type="checkbox" id="st4" value="4">
+                            <label for="st4">Efficient?</label>
+                        </div>
+                        <div class="col-6">
+                            <input type="checkbox" id="st5" value="5">
+                            <label for="st5">Patient?</label><br>
+                            <input type="checkbox" id="st6" value="6">
+                            <label for="st6">Warm?</label><br>
+                            <input type="checkbox" id="st7" value="7">
+                            <label for="st7">Clear?</label>
+                        </div>
+                        <div class="btn">
+                            <button>Submit Feedback</button>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
